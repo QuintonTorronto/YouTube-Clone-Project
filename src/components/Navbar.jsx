@@ -8,7 +8,7 @@ import { useState } from "react";
 import Avatar from "react-avatar";
 import { useNavigate } from "react-router-dom";
 
-import logo from "../../public/Youtube-Logo.wine.svg";
+import logo from "../assets/YouTube-Logo.wine.svg";
 
 function Navbar() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -59,7 +59,7 @@ function Navbar() {
           <IoNotificationsOutline />
         </button>
         <button className="">
-          <Avatar src="/dp_pp.jpg" size="60" round={true} />
+          <Avatar src="src\assets\dp_pp.jpg" size="60" round={true} />
         </button>
       </div>
     </div>
